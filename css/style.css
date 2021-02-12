@@ -31,3 +31,6 @@ border: rgb(32, 102, 102);
     border: 2px solid black;
     border-radius: 15px;
 }
+.picture{
+    border-color: black;
+}
