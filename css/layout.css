@@ -3,13 +3,16 @@
     margin: 100px;
     padding: 0;
 }
-
+.body{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
 .container{
-    display: grid;
-    grid-template-rows: 200px auto 75px;
-    width: 1200px;
-    margin: 0 auto;
-    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 .header{
     display: flex;
@@ -37,8 +40,8 @@
 }
 .main{
     margin: 10px 0;
-    display: grid;
-    grid-template-columns: 5fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 .picture{
     display: flex;
@@ -75,5 +78,5 @@ gap:5px;
 }
 .about__title {
     display:flex;
-   justify-content: center;
+justify-content: center;
 }
