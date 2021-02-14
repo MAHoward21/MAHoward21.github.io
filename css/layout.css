@@ -80,3 +80,17 @@ gap:5px;
     display:flex;
 justify-content: center;
 }
+.virtualpet{
+    width: 200px;
+    height: 250px;
+}
+.fizzbuzz{
+    width: 200px;
+    height: 250px;
+}
+.portfolio{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+}

@@ -4,8 +4,7 @@
 
 }
 body{
- background-color:rgb(128, 35, 92)
-
+ background-color:rgb(2, 2, 2)
 }
 .container{
     background-color: rgb(241, 167, 241);
@@ -32,12 +31,3 @@ border: rgb(32, 102, 102);
     border: 2px solid black;
     border-radius: 15px;
 }
-.img {
-    background-image: url(css/images/images.jpg); 
-  }
-  body {
-    background: url(images/images.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  }
