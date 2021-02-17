@@ -4,30 +4,29 @@
 
 }
 body{
- background-color:rgb(2, 2, 2)
+background-image:url(images/try\ this.png);
 }
 .container{
-    background-color: rgb(241, 167, 241);
+    color: white;
+    background-color: rgb(2, 2, 2);
 }
 header{
-    background-color:rgb(214, 176, 203)
+    background-image: url(images/26131.jpg);
 }
 footer{
     background-color: rgb(246, 248, 248);
 }
-html {
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-}
 .nav__links{
-background-color: bisque;
+background-color: rgb(240, 236, 232);
 border: rgb(32, 102, 102);
 }
 .projects__project {
-  border: 2px solid black;
+  border: 2px solid rgb(245, 242, 242);
   border-radius: 15px;
 }
-.contact{
-    border: 2px solid black;
-    border-radius: 15px;
+
+img{
+    border-color: white;
+    border: 2px solid rgb(248,246,246);
+    border-radius: 15px ;
 }
