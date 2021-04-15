@@ -1,100 +1,68 @@
 * {
-    box-sizing: border-box;
-    margin: 100px;
-    padding: 0;
+    margin: 0;
 }
-.body{
-    display: flex;
-flex-direction: column;
-align-items: center;
+
+.hero-content {
+    height: 250px;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    max-width: 1200px;
+    gap: 2px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-around;
-    }
-.header__nav{
-    align-self: stretch;
-    height: 1fx;
+.main-image{
+  grid-column: 5;
+  justify-content: space-around;
+  max-height: fit-content;
 }
-.nav__link{
-    width: 150px;
-    display: flex;
-    align-items: center;
+.sidebar-content {
+    display: inline;
+    padding-top: 1px;
+    grid-column: -1 / 3;
+}
+
+.hero-text {
+    margin-top: 5px;
+    grid-column: 5 / 10;
+}
+
+/* .navbar {
+    grid-column: 3 / 10;
+    display:center;
     justify-content: center;
-}
-.nav__links{
+    gap: 20px;
+    color: black;
+} */
+.navbar {
+    grid-column: 2;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    width: 100%;
-    height: 1fx;
+    justify-content: center;
+    gap: 20px;
+    text-shadow: 2px 2px #0a0a0a;
+    
 }
-.main{
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column;
+.footer {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
 }
-.picture{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 3px;
+
+.footer__copyright {
+    align-content: center;
+    justify-content: flex-end;
+    grid-column: 2;
 }
-img{
-    float:right;
-    width: 25%;
-}
-section{
-    width:fit-content;
-    padding: 5px;
-}
-.projects__project{
-        margin: 10px auto;
-    display: flex;
-    flex-direction: column;
-    width:100%;
-    padding: 10px;
-}
-.project__title{
-    align-self: center;
-}
-.project__date{
-    margin-top: auto;
-    align-self: flex-end;
-}
-.project__articles{
-display: flex;
-flex-direction: row;
-gap:5px;
-}
-.about__title {
-    display:flex;
-justify-content: center;
-}
-.virtualpet{
-    width: 200px;
-    height: 250px;
-}
-.fizzbuzz{
-    width: 200px;
-    height: 250px;
-}
-.portfolio{
-    display: flex;
-    align-items: center;
-    width: 200px;
-    height: 250px;
-}
-.contact{
-    display: flex;
-    justify-content:flex-end;
+.projects {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1200px;
+    gap: 2px;
+    margin-left: auto;
+    margin-right: auto;
 }
